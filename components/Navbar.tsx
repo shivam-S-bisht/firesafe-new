@@ -39,7 +39,7 @@ const Navbar: React.FC<NavbarProps> = ({ currentPage, setCurrentPage }) => {
             onClick={() => setCurrentPage(Page.Home)}
           >
             <div className="w-12 h-12 lg:w-14 lg:h-14 p-1 flex items-center justify-center transition-all duration-500 group-hover:scale-110">
-              <img src="input_file_0.png" alt="FireSafe Logo" className="w-full h-full object-contain" />
+              <img src="/input_file_0.png" alt="FireSafe Logo" className="w-full h-full object-contain" />
             </div>
             <div className="flex flex-col">
               <span className="text-xl font-[800] tracking-tighter text-slate-900 leading-none">FIRE<span className="text-brand-orange">SAFE</span></span>

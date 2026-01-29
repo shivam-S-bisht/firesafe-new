@@ -13,7 +13,7 @@ const Footer: React.FC<FooterProps> = ({ onNavigate }) => {
           <div className="lg:col-span-1">
             <div className="flex items-center space-x-4 mb-10 cursor-pointer group" onClick={() => onNavigate(Page.Home)}>
               <div className="w-14 h-14 p-1 transition-transform group-hover:scale-110">
-                <img src="input_file_0.png" alt="FireSafe Logo" className="w-full h-full object-contain" />
+                <img src="/input_file_0.png" alt="FireSafe Logo" className="w-full h-full object-contain" />
               </div>
               <div className="flex flex-col">
                 <span className="text-xl font-black tracking-tighter text-slate-900 leading-none uppercase italic">FIRE<span className="text-brand-orange">SAFE</span></span>

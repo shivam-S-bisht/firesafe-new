@@ -63,7 +63,7 @@ const Hero: React.FC<HeroProps> = ({ onNavigate }) => {
           <div className="relative">
             <div className="relative rounded-3xl overflow-hidden shadow-2xl transform rotate-2">
               <img 
-                src="input_file_2.png" 
+                src="/input_file_2.jpg" 
                 alt="Fire Safety Professionals"
                 className="w-full h-full object-cover aspect-[4/5]"
               />
