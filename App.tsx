@@ -5,9 +5,6 @@ import Footer from './components/Footer';
 import { Page } from './types';
 import { SERVICE_CATEGORIES, PROJECTS, PERSONNEL } from './constants.tsx';
 
-// Helper for asset paths in public folder
-const getAssetPath = (path: string) => `/public/${path}`;
-
 const SectionBadge: React.FC<React.PropsWithChildren<{}>> = ({ children }) => (
   <div className="inline-flex items-center space-x-2 px-4 py-1.5 rounded-full bg-orange-50 border border-orange-100 text-brand-orange text-[10px] font-[900] uppercase tracking-[0.2em] mb-8">
     <span className="w-1.5 h-1.5 rounded-full bg-brand-orange animate-pulse"></span>
@@ -59,7 +56,7 @@ const App: React.FC = () => {
           <div className="lg:col-span-5 relative mt-12 lg:mt-0 reveal" style={{animationDelay: '0.2s'}}>
             <div className="relative rounded-[4rem] overflow-hidden modern-shadow border-[12px] border-white z-10 bg-white">
               <img 
-                src={getAssetPath('input_file_2.png')} 
+                src="input_file_2.png" 
                 alt="HVWS System in Substation" 
                 className="w-full h-auto aspect-[4/5] object-cover" 
               />
@@ -92,7 +89,7 @@ const App: React.FC = () => {
             <div className="relative group reveal">
               <div className="absolute -inset-8 bg-slate-50 rounded-[4rem] -rotate-3 transition-transform group-hover:rotate-0 duration-700"></div>
               <img 
-                src={getAssetPath('input_file_3.png')} 
+                src="input_file_3.png" 
                 alt="Manifold Valves"
                 className="relative rounded-[3rem] modern-shadow w-full h-auto object-cover aspect-square z-10"
               />
@@ -164,7 +161,7 @@ const App: React.FC = () => {
               </div>
             </div>
             <div className="hidden lg:block relative">
-              <img src={getAssetPath('input_file_4.png')} className="rounded-[3rem] opacity-70 grayscale hover:grayscale-0 transition-all duration-1000 w-full object-cover aspect-video" />
+              <img src="input_file_4.png" className="rounded-[3rem] opacity-70 grayscale hover:grayscale-0 transition-all duration-1000 w-full object-cover aspect-video" />
               <div className="absolute inset-0 rounded-[3rem] border border-white/10 pointer-events-none"></div>
             </div>
           </div>

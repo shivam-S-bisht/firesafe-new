@@ -1,8 +1,5 @@
 import { Product, ServiceCategory, Project, Personnel } from './types';
 
-// Helper to handle public folder paths
-const getAssetPath = (path: string) => `/public/${path}`;
-
 export const SERVICE_CATEGORIES: ServiceCategory[] = [
   {
     title: "Fire Detection, Alarm & Public Address",
@@ -98,7 +95,7 @@ export const PRODUCTS: Product[] = [
     name: 'Industrial Fire Pump Systems',
     category: 'Suppression',
     description: 'High-capacity diesel and electric driven fire pump sets for main pump house applications.',
-    image: getAssetPath('input_file_4.png'),
+    image: 'input_file_4.png',
     features: ['Heavy duty engines', 'NFPA-20 compliant', 'Skid mounted solutions']
   },
   {
@@ -106,7 +103,7 @@ export const PRODUCTS: Product[] = [
     name: 'High Velocity Water Spray',
     category: 'Specialized',
     description: 'Specialized protection for transformers and switchyards in power substations.',
-    image: getAssetPath('input_file_2.png'),
+    image: 'input_file_2.png',
     features: ['Rapid response', 'Effective cooling', 'Industrial grade']
   },
   {
@@ -114,7 +111,7 @@ export const PRODUCTS: Product[] = [
     name: 'Deluge & Control Valve Station',
     category: 'Valves',
     description: 'Reliable alarm check valves and deluge systems for large industrial facility protection.',
-    image: getAssetPath('input_file_5.png'),
+    image: 'input_file_5.png',
     features: ['ISI certified', 'Corrosion resistant', 'Precision engineering']
   },
   {
@@ -122,7 +119,7 @@ export const PRODUCTS: Product[] = [
     name: 'Industrial Piping Infrastructure',
     category: 'Installation',
     description: 'High-rise riser and manifold systems designed for maximum pressure retention.',
-    image: getAssetPath('input_file_6.png'),
+    image: 'input_file_6.png',
     features: ['Grade A steel', 'Professional welding', 'UL/FM components']
   }
 ];
