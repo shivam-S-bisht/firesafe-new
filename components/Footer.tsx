@@ -58,7 +58,7 @@ const Footer: React.FC<FooterProps> = ({ onNavigate }) => {
               </li>
               <li>
                 <p className="text-xs font-black text-slate-400 uppercase tracking-widest mb-1">Official Inquiry</p>
-                <p className="text-sm font-black text-slate-900">sales@fire-safe.in</p>
+                <p className="text-sm font-black text-slate-900">info@fire-safe.in</p>
               </li>
             </ul>
           </div>
