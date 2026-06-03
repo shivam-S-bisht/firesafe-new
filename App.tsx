@@ -260,7 +260,7 @@ const App: React.FC = () => {
               {[
                 { label: 'Location', val: 'FF-11, 1st Floor, Avaj Tower, Vasundhara, Ghaziabad - 201012' },
                 { label: 'Hotline', val: '+91 9958188070 / 8447753551' },
-                { label: 'Email', val: 'sales@firesafe.co.in' }
+                { label: 'Email', val: 'sales@fire-safe.in' }
               ].map((item, i) => (
                 <div key={i} className="group cursor-default">
                   <h4 className="text-[10px] font-black uppercase text-brand-orange tracking-[0.3em] mb-3 lg:mb-5">{item.label}</h4>
