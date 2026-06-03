@@ -54,11 +54,11 @@ const Footer: React.FC<FooterProps> = ({ onNavigate }) => {
             <ul className="space-y-5 lg:space-y-6">
               <li>
                 <p className="text-xs font-black text-slate-400 uppercase tracking-widest mb-1">HQ Phone</p>
-                <p className="text-sm font-black text-slate-900">+91 9958188070</p>
+                <p className="text-sm font-black text-slate-900">+91 8800719711</p>
               </li>
               <li>
                 <p className="text-xs font-black text-slate-400 uppercase tracking-widest mb-1">Official Inquiry</p>
-                <p className="text-sm font-black text-slate-900">sales@firesafe.co.in</p>
+                <p className="text-sm font-black text-slate-900">sales@fire-safe.in</p>
               </li>
             </ul>
           </div>
